@@ -14,8 +14,7 @@ const charName = [
 
 const numeroMaximoDePersonagens = 671;
 
-
-function initPage(){
+function iniciarPagina(){
     for(i = 0; i < 4; i++){
         getCharacter(i)
     }
@@ -40,4 +39,4 @@ function getCharacter(i){
     })
 }
 
-window.onload = initPage;
+window.onload = iniciarPagina();
