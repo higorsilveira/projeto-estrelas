@@ -11,7 +11,6 @@ const charName = [
     document.getElementById('name4')
 ]
 
-
 const numeroMaximoDePersonagens = 671;
 
 function iniciarPagina(){
@@ -36,7 +35,16 @@ function getCharacter(i){
     image[i].src = data.image;
     image[i].alt = data.name;
     charName[i].innerHTML = data.name;
+    charName[i] = textAnimated(charName[i])
     })
+}
+
+function textAnimated(text){
+    const texttoArray = text.innerHTML.split('');
+    text.innerHTML = '';
+    texttoArray.forEach((letra, i) => {
+        setTimeout(() => text.innerHTML += letra, 300 * i)
+    });
 }
 
 window.onload = iniciarPagina();

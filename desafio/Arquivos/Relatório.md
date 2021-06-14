@@ -28,4 +28,4 @@ Relatório - Estrelas Fora da Caixa
             > A princípio quis utilizar um return para extrair o data da função e utilizar em um loop fora da função, mas sempre o retorno era "undefined"
             > Então encontrei um outro método, o XMLHttpRequest, no entanto após consegui fazer funcionar vi em pesquisas posteriores que ele é uma forma antiga de fazer requisições e por isso retornei ao "fetch";
             > Consegui buscar a informação, mas agora precisei buscar uma função que fosse chamada sempre que a página foce carregada outra vez, encontrei em uma busca no "stackoverflow.com".
-            
+        * Busquei completar o desafio sem acessar o grupo com os demais colegas, atualmente existem 1982 mensagens não lidas.
